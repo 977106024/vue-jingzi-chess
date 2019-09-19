@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <JingZi />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import JingZi from './components/JingZi'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    JingZi
   }
 }
 </script>
