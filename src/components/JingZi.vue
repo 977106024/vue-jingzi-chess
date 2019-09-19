@@ -43,16 +43,16 @@ export default {
             for(let i=0;i<map2.length;i++){
                  //中间与左右相等 并且不等于null 则赢
                 if(map2[i][0] !== null && map2[i][0] === map2[i][1] && map2[i][1] === map2[i][2]){
-                    this.res = '赢了！'
+                    this.res = map2[i][0] + '赢了！'
                     this.isEnd = true
                 }else if(map2[0][i] !== null && map2[0][i] === map2[1][i] && map2[1][i] === map2[2][i]){
-                    this.res = '赢了！'
+                    this.res = map2[0][i] + '赢了！'
                     this.isEnd = true
                 }else if(map2[0][0] !== null && map2[0][0] === map2[1][1] && map2[1][1] === map2[2][2]){
-                    this.res = '赢了！'
+                    this.res = map2[0][0] + '赢了！'
                     this.isEnd = true
                 }else if(map2[0][2] !== null && map2[0][2] === map2[1][1] && map2[1][1] === map2[2][0]){
-                    this.res = '赢了！'
+                    this.res = map2[i][2] + '赢了！'
                     this.isEnd = true
                 }
             }
